@@ -1,0 +1,16 @@
+{
+    "name": "ti/app_carrinho_compras",
+    "type": "projeto",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VictorMottaDev",
+            "email": "victor.motta.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}

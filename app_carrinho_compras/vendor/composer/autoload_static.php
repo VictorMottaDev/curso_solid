@@ -21,6 +21,7 @@ class ComposerStaticInit0963396dc8ed5b586519292880173f46
     );
 
     public static $classMap = array (
+        'App\\CarrinhoCompra' => __DIR__ . '/../..' . '/src/CarrinhoCompra.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

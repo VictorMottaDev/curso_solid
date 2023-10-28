@@ -1,6 +1,6 @@
 # Curso de SOLID
 
-Bem-vindo ao repositório do curso de SOLID! Este é o local onde você encontrará o código-fonte e os recursos relacionados ao curso sobre os princípios SOLID de design de software. O SOLID é um conjunto de cinco princípios essenciais para criar software mais manutenível, escalável e de alta qualidade.
+Este repositório está destinado aos projetos explorados durante aulas do curso que estou fazendo de SOLID.
 
 ## Objetivos do Curso
 

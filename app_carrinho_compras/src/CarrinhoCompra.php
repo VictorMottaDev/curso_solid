@@ -3,8 +3,13 @@
 namespace App;
 
 class CarrinhoCompra {
-    public static function teste()
+
+    private $itens;
+    private $status;
+    private $valorTotal;
+
+    public function __construct()
     {
-        return 'ok';
+        
     }
 }

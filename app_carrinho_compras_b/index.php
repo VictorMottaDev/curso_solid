@@ -3,9 +3,13 @@
 require __DIR__."/vendor/autoload.php";
 
 use App\CarrinhoCompra;
+use App\Item;
+use App\Pedido;
+use App\EmailService;
+
 
 $carrinho1 = new CarrinhoCompra();
-
+echo "<h3>Com SRP </h3>";
 
 /*
 echo "<h3>Com SRP </h3>";

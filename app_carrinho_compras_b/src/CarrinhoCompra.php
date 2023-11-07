@@ -15,7 +15,7 @@ class CarrinhoCompra {
 
     public function getItens()
     {
-
+        return $this->itens;
     }
 
     public function adicionarItem(Item $item)

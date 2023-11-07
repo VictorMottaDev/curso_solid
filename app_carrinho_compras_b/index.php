@@ -7,9 +7,24 @@ use App\Item;
 use App\Pedido;
 use App\EmailService;
 
-
-$carrinho1 = new CarrinhoCompra();
 echo "<h3>Com SRP </h3>";
+$pedido = new Pedido();
+//---------------------------------------------------------------
+$item1 = new Item();
+$item2 = new Item();
+
+$item1->setDescricao('Porta copo');
+$item1->setValor(4.55);
+
+$item2->setDescricao('lâmpada');
+$item2->setValor(10.80);
+//---------------------------------------------------------------
+echo '<h4>Pedido</h4>';
+echo '<pre>';
+print_r($pedido);
+echo '<pre>';
+
+
 
 /*
 echo "<h3>Com SRP </h3>";

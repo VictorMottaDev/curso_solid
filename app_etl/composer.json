@@ -1,0 +1,15 @@
+{
+    "name": "ti/app_etl",
+    "autoload": {
+        "psr-4": {
+            "Ti\\AppEtl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VictorMottaDev",
+            "email": "victor.motta.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}

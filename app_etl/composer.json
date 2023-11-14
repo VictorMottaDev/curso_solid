@@ -1,8 +1,8 @@
 {
-    "name": "ti/app_etl",
+    "name": "curso_solid/app_etl",
     "autoload": {
         "psr-4": {
-            "Ti\\AppEtl\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

@@ -15,6 +15,7 @@ class Arquivo {
         return $this->dados; 
     }
 
+    /*
     public function LerArquivoCSV(string $caminho): void  {
         $handle = fopen($caminho, 'r');
 
@@ -23,4 +24,5 @@ class Arquivo {
             $this->setDados($linha[0], $linha[1],$linha[2]);
         }
     }
+    */
 }

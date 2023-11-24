@@ -1,0 +1,15 @@
+{
+    "name": "curso_solid/app_poligonos",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VictorMottaDev",
+            "email": "victor.motta.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}

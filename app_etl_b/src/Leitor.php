@@ -35,10 +35,19 @@ class Leitor {
         $caminho = $this->getDiretorio().'/'.$this->getArquivo();
         $extensao = explode('.', $this->getArquivo());
 
-        $classe = $extensao[1];
+        $classe = '\src\extrator\\'.$extensao[1];
 
-        echo $classe;
-        exit();
+        return call_user_func_array(
+            [
+                new $classe,
+                'lerArquivo'
+            ],
+            [
+                $caminho
+            ]
+        );
+
+       
        
     }
 }

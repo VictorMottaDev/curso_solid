@@ -7,7 +7,7 @@ use App\Arquivo;
 class Txt extends Arquivo
 {
 
-    public function lerArquivo(string $caminho): void {
+    public function lerArquivo(string $caminho): array {
         $handle = fopen($caminho, 'r');
 
         while(!feof($handle))
@@ -21,6 +21,7 @@ class Txt extends Arquivo
         }
 
         fclose($handle);
+        return $this->getDados();
     }
     
 }

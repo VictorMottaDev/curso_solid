@@ -1,0 +1,15 @@
+{
+    "name": "ti/app_mensageiro",
+    "autoload": {
+        "psr-4": {
+            "Ti\\AppMensageiro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VictorMottaDev",
+            "email": "victor.motta.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
